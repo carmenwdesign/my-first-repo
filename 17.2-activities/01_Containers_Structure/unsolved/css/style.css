@@ -1,0 +1,13 @@
+/*  Hi! your going to write styles here in the next couple activities. */
+header {
+    height: 250px;
+    max-height: 500px;
+    background-image: url(".../images/upsBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.pageTopic {
+    text-align: center;
+}
