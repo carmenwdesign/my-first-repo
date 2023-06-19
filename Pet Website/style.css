@@ -1,0 +1,74 @@
+/* CSS code for styling the container, left/right sides, nested divs, and pet image */
+/* CSS code for the navigation bar */
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.navbar li:last-child {
+  border-right: none;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.navbar .active {
+  background-color: #04AA6D;
+}
+
+.container {
+    display: flex;
+  }
+  
+  .left-side {
+    width: 29%;
+  }
+  
+  .right-side {
+    width: 70%;
+  }
+  
+  .upper-div {
+    text-align: center;
+  }
+  
+  .pet-image {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .pet-name {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .pet-stats-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pet-stats-list li {
+    margin-bottom: 10px;
+  }
+  
+  .pet-stats-list li strong {
+    margin-right: 5px;
+  }
+  

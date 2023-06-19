@@ -168,26 +168,28 @@ container {
 /* Add additional classes for different column widths if needed */
 
 @media screen and (max-width: 767px) {
+
     .navbar .logo {
         float: none;
         margin-right: 0;
     }
-
+    
     .navbar .right-links {
         display: none;
     }
-
+    
     .navbar .right-links.show {
         display: block;
         width: 100%;
         text-align: center;
         margin-top: 10px;
     }
-
+    
     .navbar .right-links a {
         display: block;
         width: 100%;
         margin: 10px 0;
+        list-style: none;
     }
 
     .container,
